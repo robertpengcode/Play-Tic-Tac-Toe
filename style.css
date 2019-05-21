@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: purple;
+  margin: 50px auto 30px auto;
+}
+
+#gameArea {
+  width: 400px;
+  height: 420px;
+  border: solid 1px white;
+  margin: auto;
+  position: relative;
+}
+
+#background {
+  width: 305px;
+  height: 305px;
+  margin: 0 auto;
+  background-color: red;
+  position: absolute;
+  top: 2px;
+  left: 46px;
+  z-index: -1;
+}
+
+canvas {
+  background-color: white;
+}
+
+canvas:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#messageBox {
+  width: 360px;
+  height: 60px;
+  border: solid 2px white;
+  margin: 20px auto;
+}
+
+#message {
+  font-size: 48px;
+  color: purple;
+}
+
+#reStartGame {
+  width: 180px;
+  height: 60px;
+  border: solid 2px red;
+  margin: 30px auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+#reStartGame:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+footer {
+  color: purple;
+}
