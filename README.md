@@ -7,7 +7,7 @@ Languages and skills:
     a.canvas
     b.button
     
-  2.CSS
+  2.CSS:
     a.hover
     b.cursor: pointer
     
